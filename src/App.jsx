@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { formatDistanceToNow } from 'date-fns'
 import _ from 'lodash'
+import { makeBadge } from 'renovate-shared-utils'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
@@ -10,6 +11,7 @@ function App() {
   const [count, setCount] = useState(0)
   const tags = _.join(['beta', 'lodash', 'date-fns'], ' / ')
   const updatedAgo = formatDistanceToNow(new Date(Date.now() - 60 * 60 * 1000), { addSuffix: true })
+  const sharedBadge = makeBadge('beta')
 
   return (
     <>
@@ -25,6 +27,7 @@ function App() {
             Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
           </p>
           <p>Beta app: {tags} | last update {updatedAgo}</p>
+          <p>{sharedBadge}</p>
         </div>
         <button
           className="counter"
