@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { formatDistanceToNow } from 'date-fns'
 import _ from 'lodash'
-import { makeBadge } from 'renovate-shared-utils'
+import { makeBadge } from '@korshundeveloper/renovate-shared-utils'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'

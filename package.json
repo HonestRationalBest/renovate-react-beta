@@ -14,7 +14,7 @@
     "lodash": "^4.17.23",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
-    "renovate-shared-utils": "^0.1.0"
+    "@korshundeveloper/renovate-shared-utils": "^0.2.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.4",

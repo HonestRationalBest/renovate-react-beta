@@ -9,9 +9,9 @@
         "npm"
       ],
       "matchPackageNames": [
-        "renovate-shared-utils"
+        "@korshundeveloper/renovate-shared-utils"
       ],
-      "groupName": "renovate-shared-utils updates",
+      "groupName": "@korshundeveloper/renovate-shared-utils updates",
       "rangeStrategy": "bump",
       "labels": [
         "dependencies",
